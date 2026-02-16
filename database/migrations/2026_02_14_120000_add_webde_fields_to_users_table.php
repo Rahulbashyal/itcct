@@ -1,0 +1,30 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        if (!Schema::hasColumn('users', 'symbol_number')) {
+            Schema::table('users', function (Blueprint $table) {
+                $table->string('symbol_number')->unique()->nullable()->after('email');
+            });
+        }
+
+        if (!Schema::hasColumn('users', 'is_hidden')) {
+            Schema::table('users', function (Blueprint $table) {
+                $table->boolean('is_hidden')->default(false)->after('password');
+            });
+        }
+    }
+
+    public function down(): void
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn(['symbol_number', 'is_hidden']);
+        });
+    }
+};

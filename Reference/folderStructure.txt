@@ -1,0 +1,39 @@
+resources/
+ └── views/
+      ├── layouts/
+      │    ├── app.blade.php
+      │    ├── guest.blade.php
+      │    └── admin.blade.php
+      │
+      ├── components/
+      │    ├── ui/
+      │    │    ├── button.blade.php
+      │    │    ├── card.blade.php
+      │    │    ├── badge.blade.php
+      │    │    ├── modal.blade.php
+      │    │    └── input.blade.php
+      │    │
+      │    ├── navigation/
+      │    │    ├── navbar.blade.php
+      │    │    ├── sidebar.blade.php
+      │    │    └── footer.blade.php
+      │    │
+      │    └── animations/
+      │         ├── hero-3d.blade.php
+      │         └── floating-icons.blade.php
+      │
+      ├── pages/
+      │    ├── home.blade.php
+      │    ├── events/
+      │    ├── election/
+      │    ├── hall-of-fame/
+      │    ├── learning/
+      │    ├── ide.blade.php
+      │    └── dashboard/
+      │
+      └── admin/
+           ├── dashboard.blade.php
+           ├── accounting.blade.php
+           ├── election.blade.php
+           └── members.blade.ph
+if needed we can add or create new views this are just for refrence prurpose and we can change it anytime.

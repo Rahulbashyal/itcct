@@ -1,0 +1,45 @@
+layouts/app.blade.php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ config('app.name') }}</title>
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <x-navigation.navbar />
+
+    <main class="min-h-screen">
+        {{ $slot }}
+    </main>
+
+    <x-navigation.footer />
+
+</body>
+</html>
+
+again this is for the refrence purpose only we can change it anytime.
+
+
+theme: {
+  extend: {
+    colors: {
+      primary: '#2C3E50',
+      accent: '#2ECC71',
+      surface: '#F4F6F8',
+    }
+  }
+}       colors based on our logo.
+
+Responsiveness strategy
+xs -> 100px
+s -> 320px
+sm  → 640px
+md  → 768px
+lg  → 1024px
+xl  → 1280px
+2xl → 1536px

@@ -1,0 +1,40 @@
+DO:
+
+✔ Keep logic in Controller
+✔ Keep views clean
+✔ Use policies for role control
+✔ Use middleware
+✔ Use Form Requests for validation
+✔ Use service classes
+✔ Use .env properly
+✔ Cache configs
+✔ Use Laravel jobs for heavy tasks
+✔ Always test in mobile view
+✔ Add charts and visiuals from the db to admins other high roles to visiualize the data.
+✔ Always check for any security issues.
+✔ Always check for any performance issues.
+✔ Always check for any bugs.
+✔ Always check for any errors.
+✔ Always check for sppofing .
+✔ Always check for trojan. 
+✔ always check for hacking possiblitiy, sql injection, xss, csrf, etc. 
+✔ Always check for any vulnerabilities.
+✔ Always check for any exploits.
+✔ Keep pushing the code to git.
+✔ Always keep the code clean and organized.
+✔ Always keep the code documented.
+
+
+DON’T:
+
+✖ Don’t write DB queries in Blade
+✖ Don’t hardcode roles
+✖ Don’t inline CSS
+✖ Don’t use random JS in views
+✖ Don’t make admin UI fancy (make it functional)
+✖ Don’t ignore performance
+✖ Don’t upload huge uncompressed images
+✖ Don't use any external libraries or frameworks without my permission.
+✖ Don't alter any working state logic or ui untill i say so.
+✖ Don't do anything random and unexpected.
+✖ Don't create too many files for explaining me the process just use guidance.md file to explain me the process.

@@ -1,0 +1,775 @@
+Global UI System
+
+Public Website Wireframes
+
+Member Dashboard Wireframes
+
+Election UI Wireframe
+
+Animation System (2D + 3D)
+
+Micro-interaction Ideas
+
+Performance + Implementation Strategy
+
+🌐 1. GLOBAL UI SYSTEM
+Layout Structure
+
+Use a consistent layout across system:
+
+Public:
+
+[ Top Navbar ]
+[ Hero / Content Section ]
+[ Feature Sections ]
+[ Footer ]
+
+
+Member Area:
+
+[ Sidebar ] [ Main Content Area ]
+            [ Top Header Bar ]
+
+
+Admin Area:
+
+[ Collapsible Sidebar ]
+[ Header with quick stats ]
+[ Dynamic dashboard widgets ]
+
+🎨 2. DESIGN STYLE DIRECTION
+
+Based on your logo colors:
+
+Primary Blue: #2B6CB0
+Teal: #00A8E8
+Green Accent: #2ECC71
+Dark Background: #0F172A
+
+Visual Style
+
+Dark Mode default
+
+Glassmorphism cards
+
+Subtle gradients
+
+Soft shadows
+
+Rounded corners (rounded-2xl)
+
+Large breathing spaces
+
+Modern typography (Inter / Poppins)
+
+Think:
+
+“GitHub × Stripe × Apple”
+
+Clean. Confident. Tech-focused.
+
+🏠 3. PUBLIC WEBSITE WIREFRAMES
+🏆 HOME PAGE WIREFRAME
+------------------------------------------------
+| LOGO | HOME | EVENTS | PROJECTS | LOGIN |
+------------------------------------------------
+
+[ HERO SECTION ]
+Big Heading:
+"Empowering Innovators of Tomorrow"
+
+Subtext
+CTA Button (Join the Club)
+
+3D Animated Background (floating circuits)
+
+-----------------------------------------------
+[ STATS SECTION ]
+Members | Events | Projects | Years Active
+
+-----------------------------------------------
+[ UPCOMING EVENTS CARDS ]
+-----------------------------------------------
+[ FEATURED PROJECTS GRID ]
+-----------------------------------------------
+[ HALL OF FAME PREVIEW ]
+-----------------------------------------------
+[ FOOTER ]
+
+3D Idea for Hero
+
+Floating 3D computer model
+
+Rotating globe with digital nodes
+
+Animated circuit lines connecting elements
+
+Use:
+Three.js or Spline embeds
+
+📅 EVENTS PAGE WIREFRAME
+[ Page Title with animated underline ]
+
+[ Filter Section ]
+Category | Upcoming | Past
+
+----------------------------------
+| Event Card |
+| Image |
+| Date |
+| Description |
+| Register Button |
+----------------------------------
+
+
+Hover Effect:
+Card slightly lifts + shadow increases + glow border
+
+🗳 4. ELECTION PAGE WIREFRAME (IMPORTANT)
+
+This must feel powerful and official.
+
+Election Landing Page
+[ Election Banner ]
+"IT Club General Election 2026"
+
+Countdown Timer
+
+----------------------------------------
+[ Roles Section ]
+President
+Vice President
+Secretary
+Treasurer
+----------------------------------------
+
+Candidate Card Design
+----------------------------------------
+| Candidate Photo (circular) |
+| Name |
+| Symbol Number |
+| Role Applying For |
+| View Manifesto Button |
+| Watch Campaign Video |
+| Vote Button |
+----------------------------------------
+
+
+When clicked:
+
+Modal opens:
+
+Left:
+Video player
+
+Right:
+Manifesto text
+
+Bottom:
+Vote Button (Animated)
+
+Voting Animation
+
+When vote submitted:
+
+Confetti animation
+
+Secure vote confirmation screen
+
+“Your vote has been recorded securely.”
+
+Subtle blockchain-like animation (visual effect only).
+
+🧠 5. MEMBER DASHBOARD WIREFRAME
+[ Sidebar ]
+- Dashboard
+- Events
+- Learning Hub
+- Playground
+- Chat
+- Elections
+- Contributions
+- Profile
+
+----------------------------------------
+
+[ Top Bar ]
+Profile Image | Notifications | Logout
+
+----------------------------------------
+
+[ Dashboard Cards ]
+- Upcoming Events
+- Contribution Score
+- Active Elections
+- Finance Summary (if role allowed)
+
+----------------------------------------
+
+[ Activity Timeline ]
+
+
+Use animated counters for stats.
+
+📚 LEARNING HUB UI
+
+Design like:
+
+Medium × Coursera
+
+[ Category Filter ]
+------------------------------------
+| Tutorial Card |
+| Thumbnail |
+| Title |
+| Author |
+| Difficulty Badge |
+------------------------------------
+
+
+Hover:
+Glow + scale + smooth transition
+
+💻 CODING PLAYGROUND UI
+
+Inspired by Replit:
+
+---------------------------------------
+| File Explorer | Monaco Editor |
+---------------------------------------
+| Console Output |
+---------------------------------------
+| Run | Save | Share |
+
+
+Add subtle animated background particles.
+
+When running code:
+Spinner with digital scan effect.
+
+💬 CHAT UI
+
+Design like modern Slack/Discord.
+
+Left:
+Channels
+
+Center:
+Chat window
+
+Right:
+Online members list
+
+Add typing animation.
+
+🏛 HALL OF FAME UI
+
+Vertical Timeline Layout:
+
+| 2022 Batch |
+  |
+  |--- Rahul Bashyal
+  |    Vice President (2025–2026)
+  |    Achievements
+  |
+  |--- Another Member
+
+
+Add subtle scroll-based animation.
+
+🎬 6. 2D & 3D ANIMATION STRATEGY
+2D Animations
+
+Use:
+
+Framer Motion (Vue equivalent)
+
+GSAP
+
+Tailwind transitions
+
+Lottie animations
+
+Ideas:
+
+Button hover glow
+
+Section reveal on scroll
+
+Card lift on hover
+
+Animated progress bars
+
+Floating notification badges
+
+Animated underline effects
+
+3D Animation Ideas
+
+Use:
+
+Three.js
+Spline
+Vanta.js
+
+Add:
+
+3D rotating globe in hero
+
+Floating digital circuits
+
+3D laptop model in coding section
+
+Abstract tech particles background
+
+Election hologram effect
+
+Keep subtle. Not overwhelming.
+
+✨ MICRO-INTERACTION IDEAS
+
+These make the site feel premium:
+
+Ripple effect on button click
+
+Animated vote confirmation
+
+Smooth sidebar collapse
+
+Hover tilt effect on cards
+
+Smooth modal transitions
+
+Animated page transitions
+
+Toast notifications sliding from top
+
+⚡ PERFORMANCE STRATEGY FOR ANIMATIONS
+
+Important.
+
+Too many animations = slow website.
+
+Rules:
+
+Use lazy loading
+
+Only animate visible sections
+
+Avoid heavy 3D on mobile
+
+Provide reduced-motion accessibility
+
+Optimize assets
+
+📱 MOBILE UX DESIGN
+
+Responsive Layout:
+
+Mobile Nav:
+Hamburger menu
+
+Cards:
+Stacked layout
+
+Sidebar:
+Slide-in drawer
+
+Coding playground:
+Editor full screen toggle
+
+🧭 UX PRINCIPLES TO FOLLOW
+
+Clarity over complexity
+
+No clutter
+
+White space matters
+
+Fast interactions
+
+Consistent spacing (8px grid system)
+
+Clear role separation
+
+🔥 WHAT WILL MAKE THIS LOOK LEGENDARY
+
+Smooth animated hero
+
+Election system with campaign videos
+
+Transparent finance dashboard
+
+Animated contribution leaderboard
+
+Elegant dark UI
+
+Professional typography
+
+Subtle 3D elements
+
+Not flashy.
+Powerful.
+
+
+🎨 IT CLUB OF CCT
+COMPLETE UI/UX + MOTION DESIGN SYSTEM
+1️⃣ VISUAL IDENTITY SYSTEM (Brand Foundation)
+1.1 Color System (From Logo)
+
+Primary Blue → #2B6CB0
+Teal Accent → #00A8E8
+Circuit Green → #2ECC71
+Dark Background → #0F172A
+Dark Card → #1E293B
+Light Background → #F7FAFC
+White → #FFFFFF
+Danger → #EF4444
+Warning → #F59E0B
+
+1.2 Color Usage Rules
+
+Primary Blue → Primary buttons, links, highlights
+Teal → Secondary actions
+Green → Success, vote confirmation, active status
+Dark → Background default
+Light → Public landing pages
+Red → Delete or critical alerts
+
+1.3 Typography System
+
+Primary Font: Inter
+Headings: 700 weight
+Subheadings: 600
+Body: 400–500
+
+Sizing scale:
+
+H1 → 48px
+H2 → 36px
+H3 → 28px
+Body → 16–18px
+Small → 14px
+
+2️⃣ GRID & SPACING SYSTEM
+
+Use 8px spacing system:
+
+8px
+16px
+24px
+32px
+48px
+64px
+
+Container max width: 1280px
+Section padding: 80px vertical
+
+This keeps everything consistent and premium.
+
+3️⃣ COMPLETE PAGE WIREFRAMES (ASCII)
+🏠 HOME PAGE
+---------------------------------------------------
+| LOGO | Home | Events | Projects | Election | Login |
+---------------------------------------------------
+
+[ HERO SECTION ]
+---------------------------------------------------
+| Big Heading |
+| Subtext |
+| CTA Button |
+| 3D Floating Animation |
+---------------------------------------------------
+
+[ STATS SECTION ]
+| Members | Events | Projects | Alumni |
+
+[ Upcoming Events - Cards Grid ]
+
+[ Featured Projects - Masonry Grid ]
+
+[ Hall of Fame Preview Timeline ]
+
+[ Transparency Preview Chart ]
+
+[ Footer ]
+
+
+Animation:
+Hero background → subtle animated circuit lines
+Stats numbers → animated counter
+
+🗳 ELECTION PAGE
+---------------------------------------------------
+| IT CLUB GENERAL ELECTION 2026 |
+| Countdown Timer |
+---------------------------------------------------
+
+[ Role Tabs ]
+President | Vice President | Secretary | Treasurer
+
+---------------------------------------------------
+| Candidate Card |
+| Photo |
+| Name |
+| Symbol |
+| View Manifesto |
+| Watch Video |
+| Vote Button |
+---------------------------------------------------
+
+
+On Vote:
+Modal → Confirmation
+Confetti + subtle green glow animation
+
+👤 MEMBER DASHBOARD
+----------------------------------------------
+| Sidebar | Top Bar |
+----------------------------------------------
+
+[ Stats Cards ]
+- Contribution Score
+- Upcoming Events
+- Active Election
+- Rank
+
+[ Activity Timeline ]
+
+[ Recent Tutorials ]
+
+[ Notifications ]
+
+
+Sidebar Animation:
+Smooth expand/collapse
+
+📚 LEARNING HUB
+[ Category Filters ]
+
+---------------------------------
+| Tutorial Card |
+| Thumbnail |
+| Title |
+| Author |
+| Difficulty Badge |
+---------------------------------
+
+
+Hover:
+Scale 1.03
+Shadow increase
+
+💻 CODING PLAYGROUND
+--------------------------------------------
+| File Explorer | Monaco Editor |
+--------------------------------------------
+| Console Output |
+--------------------------------------------
+| Run | Save | Share |
+
+
+Animation:
+Run button → pulse effect
+Console output → smooth fade in
+
+💬 CHAT SYSTEM
+--------------------------------------------
+| Channels | Chat Window | Members Online |
+--------------------------------------------
+
+
+Typing animation:
+Three bouncing dots
+
+🏛 HALL OF FAME
+| 2024 |
+|   - Member Name
+|     Role Timeline
+|     Achievements
+|
+| 2025 |
+
+
+Scroll-trigger animation:
+Fade + slide upward
+
+4️⃣ COMPONENT DESIGN SYSTEM
+Buttons
+
+Primary Button:
+Background: #2B6CB0
+Hover: darker shade
+Rounded-xl
+Shadow-md
+
+Secondary Button:
+Bordered teal
+Transparent background
+
+Danger Button:
+Red background
+
+Cards
+
+Background: #1E293B
+Rounded-2xl
+Shadow-lg
+Padding: 24px
+
+Hover:
+Lift 4px + shadow-xl
+
+Forms
+
+Input:
+Dark background
+Border subtle
+Focus border: Teal glow
+
+Validation:
+Green for success
+Red for error
+
+Badges
+
+Role Badge:
+President → Blue
+Treasurer → Green
+Secretary → Teal
+
+5️⃣ MOTION DESIGN SYSTEM
+
+Now the fun part.
+
+🎬 2D ANIMATION PLAN
+
+Use:
+
+GSAP
+Vue transitions
+Lottie
+
+Use Cases
+
+Hero entrance animation
+Scroll reveal sections
+Animated counters
+Button hover glow
+Modal fade + scale
+Toast slide from top
+Sidebar slide
+
+🌌 3D ANIMATION PLAN
+
+Use:
+
+Three.js
+Spline (embedded scenes)
+
+Add 3D In:
+
+Hero Section
+Coding Playground intro
+Election banner
+
+Ideas:
+
+Floating 3D monitor
+
+Rotating globe with digital nodes
+
+Animated hologram effect
+
+Subtle particle system
+
+IMPORTANT:
+Disable heavy 3D on mobile for performance.
+
+6️⃣ MICRO INTERACTIONS
+
+Vote button ripple
+Hover tilt effect
+Animated underline on nav
+Live notification dot pulse
+Loading shimmer effect
+Progress bar animation
+Contribution level animation
+
+These make it feel premium.
+
+7️⃣ MOBILE UX STRATEGY
+
+Mobile layout:
+
+Navbar → hamburger
+Sidebar → slide drawer
+Cards → stacked
+Editor → fullscreen toggle
+
+Touch-friendly spacing
+No heavy 3D
+
+8️⃣ ACCESSIBILITY PLAN
+
+Keyboard navigation
+Reduced motion toggle
+Proper contrast ratio
+ARIA labels
+Screen reader compatibility
+
+9️⃣ UI STATE SYSTEM
+
+Every component must support:
+
+Loading State
+Empty State
+Error State
+Success State
+
+Example:
+
+No election → Show “No active elections” card
+No events → Friendly illustration
+
+🔟 PAGE TRANSITION STRATEGY
+
+Use smooth fade between pages.
+No harsh reload feel.
+
+Optional:
+Add loading bar at top (like YouTube).
+
+11️⃣ ADVANCED VISUAL IDEAS
+
+Animated background grid
+Digital rain effect in coding page
+Hologram-like election header
+Animated yearly timeline
+
+But subtle. Always subtle.
+
+12️⃣ PERFORMANCE RULES
+
+Lazy load images
+Lazy load 3D scenes
+Compress videos
+Optimize assets
+Use CDN if needed
+
+Animation should feel smooth, not heavy.
+
+13️⃣ FINAL USER EXPERIENCE GOAL
+
+When someone visits:
+
+They should feel:
+
+Professional
+Secure
+Modern
+Innovative
+Trustworthy
+Organized
+
+It should look like a tech startup platform, not a student project.

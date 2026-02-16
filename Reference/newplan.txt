@@ -1,0 +1,75 @@
+🏗️ Phase 1: The Core Foundation (Week 1-2)
+Focus: Security and Identity.
+
+Auth System: Implement Laravel Sanctum with a customized User model.
+
+Email-Symbol Link: * Add symbol_number (Unique) and is_hidden (Boolean) to the users table.
+
+Implement the MustVerifyEmail contract.
+
+RBAC Engine: Create a roles and permissions table. Use a Global Scope to hide the SuperAdmin (Invisible Role) from all standard queries.
+
+The "Stage": Build the basic WebDE canvas with the GNOME bottom taskbar and the "Left Rail" icon container.
+
+🖥️ Phase 2: The WebDE Architecture (Week 3-4)
+Focus: The "Linux" User Experience.
+
+Window Manager: Create a reusable Window.vue (or Svelte) component with:
+
+HeaderBar: Flat matte #2D2D2D with "Close/Minimize" and title.
+
+Drag-and-Drop: Using a library like Interact.js for window movement.
+
+Dynamic Desktop Logic:
+
+API call GET /api/v1/desktop/icons returns a JSON of apps based on the User's role.
+
+Use a switch-case to render icons (e.g., if role is 'Member', only show 4 folders; if 'Treasurer', show 5).
+
+Time-Based Scene Logic: Implement the 5 states (Morning, Day, Evening, Night, Deep Night) using CSS variable transitions for lighting and character visibility.
+
+🗳️ Phase 3: High-Stake Modules (Week 5-7)
+Focus: Elections and Transparency.
+
+Digital Election App:
+
+Manifesto Viewer: Integrated PDF.js for reading candidate plans.
+
+Voting Logic: Hashed voting with IP and Timestamp logging.
+
+Transparency Portal:
+
+Financial ledger with specific "Receipt View" modals.
+
+Chart.js integration for "Income vs Expense" visuals.
+
+Hall of Fame: Vertical scrollable timeline of alumni, filtered by "Batch."
+
+💻 Phase 4: The Innovation Lab (Week 8-10)
+Focus: The Coding Playground.
+
+IDE Lab:
+
+Frontend: Monaco Editor (VS Code core) themed to match your dark GNOME aesthetic.
+
+Backend: Connect to a Docker Sandbox (via a microservice or Piston API).
+
+Internal Chat: Real-time communication using Laravel Reverb (WebSockets). Private channels restricted by role (e.g., #admins-only).
+
+🛠️ Phase 5: Hardening & API (Week 11-12)
+Focus: Perfection and Future-Proofing.
+
+Mobile API: Finalize the RESTful endpoints so a Flutter/React Native app can simply "plug in."
+
+SuperAdmin "Panic" Panel: A hidden route (accessible only by direct URL + specific encrypted key) for the Invisible SuperAdmin to reset the system or view logs.
+
+Optimization: WebP compression, lazy-loading of "Off-screen" windows, and caching of the Institutional Database.
+
+🏛️ Feature Matrix: Role-Based Access
+🧪 Database Blueprint (Simplified)
+⚖️ The "No-Buttercoating" Roadmap Rules
+The "Folder" Illusion: Remember, "Opening a folder" is just a State Change in your frontend. Don't literally "go to a new page." This keeps the OS feel fluid.
+
+Verification is Law: If a user hasn't verified their email, the visibleApps array should return Empty except for the "Profile/Verification" app. No exceptions.
+
+The Shadow SuperAdmin: Ensure that is_hidden is not just a UI flag but a Database Filter. If someone steals the "President" account, they still shouldn't see the "SuperAdmin" even in the member list.
